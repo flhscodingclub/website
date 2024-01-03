@@ -32,19 +32,27 @@
     <h1 style="background-color:LightSkyBlue; text-align:center;"> Fairfield Ludlowe High School Coding Club </h1>
        <section>
         <h2>Bathroom Closure Reporting</h2>
-        <label> for="bathrooms" Choose a bathroom: </label>
-           <select name="bathrooms" id="bathrooms" onchange="bathrooms".submit()>
-              <option value="Art/Basement Bathroom">Art/Basement Bathroom</option>
-              <option value="Lunch Bathroom">Lunch Bathroom</option>
-              <option value="215">215</option>
-              <option value="Main Lobby">Main Lobby</option>
-              <option value="Spanish Wing">Spanish Wing</option>
-              <option value="Theisen/Newberg">Theisen/Newberg</option>
-              <option value="Health Bathroom">Health Bathroom</option>
-              <option value="Sousa">Sousa</option>
-              <option value="Bio Wing">Bio Wing</option>
-          
-          </select>
+        <form action="/action_page.php">
+        <input type="checkbox" id="A/B bathroom" name="A/B bathroom" value="A/B">
+        <label for="A/B bathroom"> Art/Basement Bathroom </label><br>
+        <input type="checkbox" id="Lunch Bathroom" name="Lunch Bathroom" value="Lunch">
+        <label for="Lunch Bathroom"> Lunch Bathroom </label><br>
+        <input type="checkbox" id="215" name="215" value="215">
+        <label for="215"> 215 </label><br>
+        <input type="checkbox" id="Main Lobby" name="Main Lobby" value="Main Lobby">
+        <label for="Main Lobby"> Main Lobby </label><br>
+        <input type="checkbox" id="SW" name="SW" value="SW">
+        <label for="SW"> Spanish Wing </label><br>
+        <input type="checkbox" id="T/N" name="T/N" value="T/N">
+        <label for="T/N"> Theisen/Newberg </label><br>
+        <input type="checkbox" id="Health" name="Health" value="Health">
+        <label for="Health"> Health Bathroom </label><br>
+        <input type="checkbox" id="Sousa" name="Sousa" value="Sousa">
+        <label for="Sousa"> Sousa Bathroom </label><br>
+        <input type="checkbox" id="Bio" name="Bio" value="Bio">
+        <label for="Bio"> Bio Wing </label><br>
+        <input type="submit" value="Submit">
+        </form>
     </section>
     <footer>
         <p>Back to <a href="index.html">Homepage</a></p>
