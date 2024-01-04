@@ -1,61 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>2</title>
-    <style>
-        body {
-            font-family: Serif, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 36px;
-        }
-        h2 {
-            font-size: 24px;
-        }
-    </style>
-  </head>
+    <title>Bathroom Closure Report</title>
+</head>
 
-  <body>
-    <h1 style="background-color:LightSkyBlue; text-align:center;"> Fairfield Ludlowe High School Coding Club </h1>
-       <section>
+<body>
+    <header style="background-color: #003479; color: white; padding: 20px; text-align: center;">
+        <h1>Fairfield Ludlowe High School Coding Club</h1>
+    </header>
+
+    <section class="container">
         <h2>Bathroom Closure Reporting</h2>
         <form action="/action_page.php">
-        <input type="checkbox" id="A/B bathroom" name="A/B bathroom" value="A/B">
-        <label for="A/B bathroom"> Art/Basement Bathroom </label><br>
-        <input type="checkbox" id="Lunch Bathroom" name="Lunch Bathroom" value="Lunch">
-        <label for="Lunch Bathroom"> Lunch Bathroom </label><br>
-        <input type="checkbox" id="215" name="215" value="215">
-        <label for="215"> 215 </label><br>
-        <input type="checkbox" id="Main Lobby" name="Main Lobby" value="Main Lobby">
-        <label for="Main Lobby"> Main Lobby </label><br>
-        <input type="checkbox" id="SW" name="SW" value="SW">
-        <label for="SW"> Spanish Wing </label><br>
-        <input type="checkbox" id="T/N" name="T/N" value="T/N">
-        <label for="T/N"> Theisen/Newberg </label><br>
-        <input type="checkbox" id="Health" name="Health" value="Health">
-        <label for="Health"> Health Bathroom </label><br>
-        <input type="checkbox" id="Sousa" name="Sousa" value="Sousa">
-        <label for="Sousa"> Sousa Bathroom </label><br>
-        <input type="checkbox" id="Bio" name="Bio" value="Bio">
-        <label for="Bio"> Bio Wing </label><br>
-        <input type="submit" value="Submit">
+            <div class="checkbox-group">
+                <input type="checkbox" id="A_B_bathroom" name="A_B_bathroom" value="A_B">
+                <label for="A_B_bathroom">Art/Basement Bathroom</label><br>
+
+                <input type="checkbox" id="Lunch_Bathroom" name="Lunch_Bathroom" value="Lunch">
+                <label for="Lunch_Bathroom">Lunch Bathroom</label><br>
+
+                <input type="checkbox" id="Room_215" name="Room_215" value="215">
+                <label for="Room_215">Room 215</label><br>
+
+                <input type="checkbox" id="Main_Lobby" name="Main_Lobby" value="Main_Lobby">
+                <label for="Main_Lobby">Main Lobby</label><br>
+
+                <input type="checkbox" id="Spanish_Wing" name="Spanish_Wing" value="Spanish_Wing">
+                <label for="Spanish_Wing">Spanish Wing</label><br>
+
+                <input type="checkbox" id="Theisen_Newberg" name="Theisen_Newberg" value="Theisen_Newberg">
+                <label for="Theisen_Newberg">Theisen/Newberg</label><br>
+
+                <input type="checkbox" id="Health_Bathroom" name="Health_Bathroom" value="Health">
+                <label for="Health_Bathroom">Health Bathroom</label><br>
+
+                <input type="checkbox" id="Sousa_Bathroom" name="Sousa_Bathroom" value="Sousa">
+                <label for="Sousa_Bathroom">Sousa Bathroom</label><br>
+
+                <input type="checkbox" id="Bio_Wing" name="Bio_Wing" value="Bio">
+                <label for="Bio_Wing">Bio Wing</label><br>
+            </div>
+
+            <input type="submit" value="Submit">
         </form>
     </section>
+
     <footer>
         <p>Back to <a href="index.html">Homepage</a></p>
     </footer>
-  </body>
+</body>
+
 </html>
